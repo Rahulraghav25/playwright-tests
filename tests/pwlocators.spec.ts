@@ -11,7 +11,7 @@ page.getByTestId() to locate an element based on its data-testid attribute (othe
 import{test,expect,Locator} from "@playwright/test";
 
 test("Verify the loactors", async ({page})=>{
-    await page.goto("https://demo.nopcommerce.com");
+    await page.goto("https://demo.nopcommerce.com/");
 
     waitUntil: 'domcontentloaded'
 
